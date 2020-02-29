@@ -120,12 +120,12 @@
 <form class="all-inputs" name="Dominos" data-netlify="true" method="POST">
   <div class="each-input">
     Let's start by typing in your name:
-    <input class="customer-input" id="name" type="text" placeholder="Firstname Lastname">
+    <input class="customer-input" id="name" name="name" type="text" placeholder="Firstname Lastname">
   </div>
 
   <div class="each-input">
     Enter your boarding house:
-    <select class="customer-input" id="house" style="background: #191919; text-align-last: center;">
+    <select class="customer-input" id="house" name="house" style="background: #191919; text-align-last: center;">
         <option class="house" value="St Annes">St Annes</option>
         <option class="house" value="Walton">Walton</option>
         <option class="house" value="Kingweston">Kingweston</option>
@@ -136,12 +136,12 @@
 
   <div class="each-input">
     Enter your order:
-    <input class="customer-input" id="order" type="text" placeholder="Pizza order">
+    <input class="customer-input" id="order" name="order" type="text" placeholder="Pizza order">
 </div>
 
 <div class="each-input">
     What drink would you like?
-    <input class="customer-input" id="drink" type="text" placeholder="Soda">
+    <input class="customer-input" id="drink" name="drink" type="text" placeholder="Soda">
 </div>
   <input type="submit" name="" value="Confirm Order" onclick="popup()">
 </form>
