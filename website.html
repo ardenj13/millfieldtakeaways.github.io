@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <style>
+    h1{
+      background-color:white;
+      color: black;
+      font-family: cursive;
+      border:1px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      padding-left: 70px;
+      margin: 0px;
+      }
+    h2{
+      text-align: center; 
+      font-size: 50px;
+      color:yellowgreen;
+      margin-top: 10px;
+      border-radius: 70px; 
+      padding-left:100px; 
+      padding-right:100px;
+      padding-top: 140px;
+      padding-bottom: 140px;
+      background-image:url("29483d95a01e53e376939bae351c2bbb.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size: 100% 100%;
+      background-position: 0px;
+
+    }
+
+    hr{
+       width: 80%;
+       margin-bottom: 40px;
+       border-color: yellowgreen;
+    }
+    
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    
+    .content-wrapper{
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+    .portfolio-items-wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 40px;
+      
+    }
+    
+    .portfolio-item-wrapper{
+      position: relative;
+      
+    }
+
+    
+
+    .portfolio-img-background{
+      height: 300px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 0 95px 0 95px;
+      
+    }
+
+    
+    
+    .img-text-wrapper{
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      text-align: center;
+      padding-left: 120px;
+      padding-right: 100px;
+
+    }
+    .name{
+      font-size: 50px;
+      color: yellowgreen;
+      font-weight: 600;
+    }
+
+    .img-text-wrapper .subtitle{
+      transition: 1s;
+      color: transparent;
+      font-weight: 600;
+      padding: 0 40px 30px 40px;
+    }
+
+    .img-text-wrapper :hover.subtitle{
+      font-weight: 600;
+      color: lightseagreen;
+    }
+
+    .img-darken{
+      transition: 1s;
+      filter: brightness(10%);
+    }
+
+    .footer{
+      width: 100%;
+      height: 400px;
+      background-color: black;
+      margin-top: 30px;
+      
+    }
+    .footer-head{
+      background-color: black;
+    }
+  
+    </style>
+  <title>Takeaways</title>
+</head>
+
+<body>
+  <div>
+   <div>
+    <h1 class="title">Take<div style="color: yellowgreen; display: inline;">aways</div></h1>
+   </div>
+   <div>
+    <h2>Order your Saturday night takeaways</h2>
+   </div>
+    <hr>
+    <div class="content-wrapper" style="margin-bottom: 40px;">
+
+      <div class="portfolio-items-wrapper">
+
+        <a href="dominos.html">
+          <div class="portfolio-item-wrapper">
+             
+             <div class="portfolio-img-background" style="background-image: url(0_dominos-1PNG.png);">
+             </div>
+              <div class="img-text-wrapper">
+                <div class="name">Dominos</div>
+                <div class="subtitle">
+                  Get your pizza today!!!
+                </div>
+              </div>
+          </div>
+        </a>
+        <a href="rams.html">
+
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image: url(kebab.jpg);">
+            </div>
+              <div class="img-text-wrapper">
+                <div class="name">Rams</div>
+                <div class="subtitle">
+                  Order your kebab today!!!
+                </div>
+              </div>
+          </div>
+        </a>
+
+         <a href="indian.html">
+
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image: url(indian.jpg);">
+            </div>
+              <div class="img-text-wrapper">
+                <div class="name">Indian</div>
+                <div class="subtitle">
+                  Order your indian meal today!!!
+                </div>
+              </div>
+          </div>
+
+         </a>
+
+         <a href="chinese.html">
+
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image: url(chinese.jpg);">
+            </div>
+              <div class="img-text-wrapper">
+                <div class="name">Chinese</div>
+                <div class="subtitle">
+                  Order your Chinese meal today!!!
+                </div>
+              </div>
+          </div>
+
+         </a>
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+  
+      
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
